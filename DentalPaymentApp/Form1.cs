@@ -59,6 +59,7 @@ namespace DentalPaymentApp
 
             MessageBox.Show($"Tổng tiền: {total} VND", "Xác nhận", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+<<<<<<< HEAD
         // 
         private void lblName_Click(object sender, EventArgs e)
         {
@@ -69,5 +70,7 @@ namespace DentalPaymentApp
         {
             MessageBox.Show("m chắc chưa");
         }
+=======
+>>>>>>> parent of de160cc (Test1)
     }
 }
