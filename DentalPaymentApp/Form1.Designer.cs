@@ -58,7 +58,6 @@
             this.lblTitle.Size = new System.Drawing.Size(266, 36);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Dental Payment Form";
-            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // lblName
             // 
@@ -182,7 +181,6 @@
             this.lblTotal.Size = new System.Drawing.Size(38, 16);
             this.lblTotal.TabIndex = 12;
             this.lblTotal.Text = "Total";
-            this.lblTotal.Click += new System.EventHandler(this.lblTotal_Click);
             // 
             // txtTotal
             // 

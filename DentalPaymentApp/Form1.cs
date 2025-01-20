@@ -59,19 +59,5 @@ namespace DentalPaymentApp
 
             MessageBox.Show($"Tổng tiền: {total} VND", "Xác nhận", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-        private void lblName_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("m chắc chưa");
-        }
-
-        private void lblTotal_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("m chắc chưa");
-        }
-
-        private void lblTitle_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("NHÌN CC");
-        }
     }
 }
