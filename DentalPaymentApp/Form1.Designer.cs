@@ -66,6 +66,7 @@
             this.lblName.Size = new System.Drawing.Size(86, 13);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Tên khách hàng";
+            this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // txtName
             // 
