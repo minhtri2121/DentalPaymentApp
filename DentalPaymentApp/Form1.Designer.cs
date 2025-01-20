@@ -52,39 +52,35 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Impact", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblTitle.Location = new System.Drawing.Point(93, 52);
-            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTitle.Location = new System.Drawing.Point(70, 42);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(266, 36);
+            this.lblTitle.Size = new System.Drawing.Size(212, 28);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Dental Payment Form";
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(55, 139);
-            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblName.Location = new System.Drawing.Point(41, 113);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(103, 16);
+            this.lblName.Size = new System.Drawing.Size(86, 13);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Tên khách hàng";
             this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(201, 135);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Location = new System.Drawing.Point(151, 110);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(216, 22);
+            this.txtName.Size = new System.Drawing.Size(163, 20);
             this.txtName.TabIndex = 2;
             // 
             // chkClean
             // 
             this.chkClean.AutoSize = true;
-            this.chkClean.Location = new System.Drawing.Point(57, 185);
-            this.chkClean.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkClean.Location = new System.Drawing.Point(43, 150);
             this.chkClean.Name = "chkClean";
-            this.chkClean.Size = new System.Drawing.Size(75, 20);
+            this.chkClean.Size = new System.Drawing.Size(62, 17);
             this.chkClean.TabIndex = 3;
             this.chkClean.Text = "Cạo vôi";
             this.chkClean.UseVisualStyleBackColor = true;
@@ -93,10 +89,9 @@
             // chkWhitening
             // 
             this.chkWhitening.AutoSize = true;
-            this.chkWhitening.Location = new System.Drawing.Point(57, 226);
-            this.chkWhitening.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkWhitening.Location = new System.Drawing.Point(43, 184);
             this.chkWhitening.Name = "chkWhitening";
-            this.chkWhitening.Size = new System.Drawing.Size(86, 20);
+            this.chkWhitening.Size = new System.Drawing.Size(71, 17);
             this.chkWhitening.TabIndex = 4;
             this.chkWhitening.Text = "Tẩy trắng";
             this.chkWhitening.UseVisualStyleBackColor = true;
@@ -105,10 +100,9 @@
             // chkXRay
             // 
             this.chkXRay.AutoSize = true;
-            this.chkXRay.Location = new System.Drawing.Point(57, 268);
-            this.chkXRay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkXRay.Location = new System.Drawing.Point(43, 218);
             this.chkXRay.Name = "chkXRay";
-            this.chkXRay.Size = new System.Drawing.Size(117, 20);
+            this.chkXRay.Size = new System.Drawing.Size(98, 17);
             this.chkXRay.TabIndex = 5;
             this.chkXRay.Text = "Chụp hình răng";
             this.chkXRay.UseVisualStyleBackColor = true;
@@ -117,87 +111,79 @@
             // lblCleanCost
             // 
             this.lblCleanCost.AutoSize = true;
-            this.lblCleanCost.Location = new System.Drawing.Point(277, 186);
-            this.lblCleanCost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCleanCost.Location = new System.Drawing.Point(208, 151);
             this.lblCleanCost.Name = "lblCleanCost";
-            this.lblCleanCost.Size = new System.Drawing.Size(56, 16);
+            this.lblCleanCost.Size = new System.Drawing.Size(49, 13);
             this.lblCleanCost.TabIndex = 6;
             this.lblCleanCost.Text = "$100000";
             // 
             // lblWhiteningCost
             // 
             this.lblWhiteningCost.AutoSize = true;
-            this.lblWhiteningCost.Location = new System.Drawing.Point(277, 231);
-            this.lblWhiteningCost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblWhiteningCost.Location = new System.Drawing.Point(208, 188);
             this.lblWhiteningCost.Name = "lblWhiteningCost";
-            this.lblWhiteningCost.Size = new System.Drawing.Size(63, 16);
+            this.lblWhiteningCost.Size = new System.Drawing.Size(55, 13);
             this.lblWhiteningCost.TabIndex = 7;
             this.lblWhiteningCost.Text = "$1200000";
             // 
             // lblXRayCost
             // 
             this.lblXRayCost.AutoSize = true;
-            this.lblXRayCost.Location = new System.Drawing.Point(277, 273);
-            this.lblXRayCost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblXRayCost.Location = new System.Drawing.Point(208, 222);
             this.lblXRayCost.Name = "lblXRayCost";
-            this.lblXRayCost.Size = new System.Drawing.Size(56, 16);
+            this.lblXRayCost.Size = new System.Drawing.Size(49, 13);
             this.lblXRayCost.TabIndex = 8;
             this.lblXRayCost.Text = "$200000";
             // 
             // lblFilling
             // 
             this.lblFilling.AutoSize = true;
-            this.lblFilling.Location = new System.Drawing.Point(55, 315);
-            this.lblFilling.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFilling.Location = new System.Drawing.Point(41, 256);
             this.lblFilling.Name = "lblFilling";
-            this.lblFilling.Size = new System.Drawing.Size(69, 16);
+            this.lblFilling.Size = new System.Drawing.Size(55, 13);
             this.lblFilling.TabIndex = 9;
             this.lblFilling.Text = "Trám răng";
             // 
             // numFilling
             // 
-            this.numFilling.Location = new System.Drawing.Point(136, 313);
-            this.numFilling.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numFilling.Location = new System.Drawing.Point(102, 254);
             this.numFilling.Name = "numFilling";
-            this.numFilling.Size = new System.Drawing.Size(57, 22);
+            this.numFilling.Size = new System.Drawing.Size(43, 20);
             this.numFilling.TabIndex = 10;
             this.numFilling.ValueChanged += new System.EventHandler(this.UpdateTotal);
             // 
             // lblFillCost
             // 
             this.lblFillCost.AutoSize = true;
-            this.lblFillCost.Location = new System.Drawing.Point(277, 315);
-            this.lblFillCost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblFillCost.Location = new System.Drawing.Point(208, 256);
             this.lblFillCost.Name = "lblFillCost";
-            this.lblFillCost.Size = new System.Drawing.Size(74, 16);
+            this.lblFillCost.Size = new System.Drawing.Size(65, 13);
             this.lblFillCost.TabIndex = 11;
             this.lblFillCost.Text = "$80000 /cái";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(243, 405);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTotal.Location = new System.Drawing.Point(182, 329);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(38, 16);
+            this.lblTotal.Size = new System.Drawing.Size(31, 13);
             this.lblTotal.TabIndex = 12;
             this.lblTotal.Text = "Total";
+            this.lblTotal.Click += new System.EventHandler(this.lblTotal_Click);
             // 
             // txtTotal
             // 
             this.txtTotal.Enabled = false;
-            this.txtTotal.Location = new System.Drawing.Point(309, 401);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotal.Location = new System.Drawing.Point(232, 326);
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(108, 22);
+            this.txtTotal.Size = new System.Drawing.Size(82, 20);
             this.txtTotal.TabIndex = 13;
             // 
             // tbnExit
             // 
-            this.tbnExit.Location = new System.Drawing.Point(59, 479);
-            this.tbnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbnExit.Location = new System.Drawing.Point(44, 389);
             this.tbnExit.Name = "tbnExit";
-            this.tbnExit.Size = new System.Drawing.Size(100, 28);
+            this.tbnExit.Size = new System.Drawing.Size(75, 23);
             this.tbnExit.TabIndex = 14;
             this.tbnExit.Text = "Thoát";
             this.tbnExit.UseVisualStyleBackColor = true;
@@ -205,10 +191,9 @@
             // 
             // btnCalc
             // 
-            this.btnCalc.Location = new System.Drawing.Point(309, 479);
-            this.btnCalc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalc.Location = new System.Drawing.Point(232, 389);
             this.btnCalc.Name = "btnCalc";
-            this.btnCalc.Size = new System.Drawing.Size(100, 28);
+            this.btnCalc.Size = new System.Drawing.Size(75, 23);
             this.btnCalc.TabIndex = 15;
             this.btnCalc.Text = "Tính tiền";
             this.btnCalc.UseVisualStyleBackColor = true;
@@ -216,9 +201,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 566);
+            this.ClientSize = new System.Drawing.Size(344, 460);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.tbnExit);
             this.Controls.Add(this.txtTotal);
@@ -236,7 +221,6 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblTitle);
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numFilling)).EndInit();
