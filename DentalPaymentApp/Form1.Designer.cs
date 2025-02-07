@@ -51,7 +51,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Impact", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblTitle.ForeColor = System.Drawing.Color.MediumVioletRed;
             this.lblTitle.Location = new System.Drawing.Point(93, 52);
             this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
@@ -72,7 +72,7 @@
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(201, 135);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(216, 22);
             this.txtName.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             this.chkClean.AutoSize = true;
             this.chkClean.Location = new System.Drawing.Point(57, 185);
-            this.chkClean.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkClean.Margin = new System.Windows.Forms.Padding(4);
             this.chkClean.Name = "chkClean";
             this.chkClean.Size = new System.Drawing.Size(75, 20);
             this.chkClean.TabIndex = 3;
@@ -93,7 +93,7 @@
             // 
             this.chkWhitening.AutoSize = true;
             this.chkWhitening.Location = new System.Drawing.Point(57, 226);
-            this.chkWhitening.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkWhitening.Margin = new System.Windows.Forms.Padding(4);
             this.chkWhitening.Name = "chkWhitening";
             this.chkWhitening.Size = new System.Drawing.Size(86, 20);
             this.chkWhitening.TabIndex = 4;
@@ -105,7 +105,7 @@
             // 
             this.chkXRay.AutoSize = true;
             this.chkXRay.Location = new System.Drawing.Point(57, 268);
-            this.chkXRay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkXRay.Margin = new System.Windows.Forms.Padding(4);
             this.chkXRay.Name = "chkXRay";
             this.chkXRay.Size = new System.Drawing.Size(117, 20);
             this.chkXRay.TabIndex = 5;
@@ -156,7 +156,7 @@
             // numFilling
             // 
             this.numFilling.Location = new System.Drawing.Point(136, 313);
-            this.numFilling.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numFilling.Margin = new System.Windows.Forms.Padding(4);
             this.numFilling.Name = "numFilling";
             this.numFilling.Size = new System.Drawing.Size(57, 22);
             this.numFilling.TabIndex = 10;
@@ -186,7 +186,7 @@
             // 
             this.txtTotal.Enabled = false;
             this.txtTotal.Location = new System.Drawing.Point(309, 401);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(108, 22);
             this.txtTotal.TabIndex = 13;
@@ -194,7 +194,7 @@
             // tbnExit
             // 
             this.tbnExit.Location = new System.Drawing.Point(59, 479);
-            this.tbnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbnExit.Margin = new System.Windows.Forms.Padding(4);
             this.tbnExit.Name = "tbnExit";
             this.tbnExit.Size = new System.Drawing.Size(100, 28);
             this.tbnExit.TabIndex = 14;
@@ -205,7 +205,7 @@
             // btnCalc
             // 
             this.btnCalc.Location = new System.Drawing.Point(309, 479);
-            this.btnCalc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalc.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalc.Name = "btnCalc";
             this.btnCalc.Size = new System.Drawing.Size(100, 28);
             this.btnCalc.TabIndex = 15;
@@ -235,7 +235,7 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblTitle);
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numFilling)).EndInit();
